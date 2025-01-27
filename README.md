@@ -9,21 +9,7 @@ This project develops a machine learning model to predict the **permanent magnet
 ---
 
 ### 📂 Repository Structure
-project-root/                     # Root directory of the project
-├── data/                         # Directory for datasets or database files
-│   └── Database.db               # SQLite database containing the "Electric_cars" table
-│
-├── src/                          # Directory for source code
-│   ├── training.py               # Script for model training and evaluation
-│   ├── prediction.py             # Flask API for real-time predictions
-│
-├── models/                       # Directory for storing trained models and related files
-│   ├── motor_temp_model.pkl      # Trained Random Forest model
-│   ├── pca_transformer.pkl       # PCA transformer for dimensionality reduction
-│   └── feature_columns.pkl       # File containing selected feature names
-│
-├── requirements.txt              # File listing project dependencies
-├── README.md                     # Documentation for the project (this file)
+project-root/ │ ├── data/ # Datasets or database files │ └── Database.db # Database containing the "Electric_cars" table ├── src/ # Source code │ ├── data_preprocessing.py # Data processing and feature engineering │ ├── model_training.py # Code for training the ML model │ ├── prediction_api.py # Flask API for real-time predictions ├── models/ # Trained models and weights │ └── final_model.pkl ├── reports/ # Reports and documentation │ └── final_report.pdf ├── requirements.txt # Dependencies for the project └── README.md # Project documentation (this file)
 
 ---
 
