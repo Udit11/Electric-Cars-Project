@@ -30,7 +30,7 @@ project-root/                     # Root directory of the project
 ### 🛠️ Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/Electric-Motor-Temperature-Prediction.git
+   git clone https://github.com/Udit11/Electric-Motor-Temperature-Prediction.git
    cd Electric-Motor-Temperature-Prediction
 Set Up a Virtual Environment:
     python -m venv env
